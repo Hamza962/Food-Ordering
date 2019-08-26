@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:id="@+id/text_chef_loginpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginBottom="267dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/text_chef_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text_chef_loginpass"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="92dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button_chef_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="178dp"
+        android:background="@drawable/btn_round"
+        android:text="Log In" />
+
+    <Button
+        android:id="@+id/button_chef_signup"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button_chef_login"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="101dp"
+        android:text="Don't have account? Sign Up" />
+
+    <TextView
+        android:id="@+id/tvforgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:text="Forgot Password" />
+</RelativeLayout>

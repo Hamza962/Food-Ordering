@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">586899040536-qeot8ccimd7p1toopjqrnpspjfptlsvs.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://khana-online-f2dd4.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">586899040536</string>
+    <string name="google_api_key" translatable="false">AIzaSyBDFt_u21iGRknAg_g9f5x0RM1rHEyIG3U</string>
+    <string name="google_app_id" translatable="false">1:586899040536:android:0877811a9d555fa1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBDFt_u21iGRknAg_g9f5x0RM1rHEyIG3U</string>
+    <string name="google_storage_bucket" translatable="false">khana-online-f2dd4.appspot.com</string>
+    <string name="project_id" translatable="false">khana-online-f2dd4</string>
+</resources>

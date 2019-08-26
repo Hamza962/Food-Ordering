@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.khana_online.fyp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Top_cheff"></activity>
+        <activity android:name=".Order_Status"></activity>
+        <activity android:name=".Edit_Dish" />
+        <activity android:name=".Customer" />
+        <activity android:name=".Cart" />
+        <activity android:name=".VerifyPhoneActivity" />
+        <activity android:name=".PhoneAuth" />
+        <activity android:name=".Order_Info" />
+        <activity android:name=".Home" />
+        <activity android:name=".add_dishes" />
+        <activity android:name=".PasswordActivity" />
+        <activity
+            android:name=".profile"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".Chef_signup" />
+        <activity android:name=".Chef" />
+        <activity android:name=".Khana_Online">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Chef_Signin" />
+    </application>
+
+</manifest>

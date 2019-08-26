@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "586899040536",
+    "firebase_url": "https://khana-online-f2dd4.firebaseio.com",
+    "project_id": "khana-online-f2dd4",
+    "storage_bucket": "khana-online-f2dd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586899040536:android:0877811a9d555fa1",
+        "android_client_info": {
+          "package_name": "com.example.khana_online.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586899040536-v65orvt2i8nrbd4v56i881rshfbac76b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.khana_online.fyp",
+            "certificate_hash": "5d268edbe4343b82421cb669c248e1d1b2afef77"
+          }
+        },
+        {
+          "client_id": "586899040536-7eovlprvf0r8dpcia6juvfl5pkk76jq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.khana_online.fyp",
+            "certificate_hash": "2c553f0c44b6f44dc5de27c32e70d3d88f3c4d11"
+          }
+        },
+        {
+          "client_id": "586899040536-qeot8ccimd7p1toopjqrnpspjfptlsvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDFt_u21iGRknAg_g9f5x0RM1rHEyIG3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586899040536-qeot8ccimd7p1toopjqrnpspjfptlsvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

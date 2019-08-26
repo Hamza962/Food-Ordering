@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Khana Online</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="type">
+        <item>Cash on Delivery</item>
+        <item>Self Pickup</item>
+
+    </string-array>
+
+    <string-array name="status">
+        <item> accepted </item>
+        <item> inprogress </item>
+        <item> Deliverd </item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_dishes">
+
+    <ImageView
+        android:id="@+id/iv_dish_pic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@android:drawable/ic_menu_camera"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+        <EditText
+            android:id="@+id/et_dish_name"
+            android:hint="Dish Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:paddingBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/et_dish_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dish Catagory"
+            android:inputType="textPersonName"
+            android:paddingBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/et_dish_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Quantity"
+            android:inputType="number"
+            android:paddingBottom="15dp"/>
+        <EditText
+            android:id="@+id/et_dish_Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:inputType="number"
+            android:paddingBottom="15dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/et_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Valid Till"
+                android:inputType="number"
+                android:layout_marginRight="50dp"
+                android:paddingBottom="15dp"/>
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_round"
+                android:text="Time"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_add_dish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_round"
+            android:stateListAnimator="@android:anim/cycle_interpolator"
+            android:text="Add Dish"
+            android:gravity="center"
+            android:layout_marginHorizontal="75dp"
+            android:layout_marginTop="40dp"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>
