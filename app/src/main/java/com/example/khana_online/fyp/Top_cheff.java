@@ -84,7 +84,7 @@ String x;
                     final String barcode =  snapshot.getKey();
                     assert barcode != null;
 
-////////
+
                                // DatabaseReference databaseReference3 = FirebaseDatabase.getInstance().getReference("Chef").child(barcode);
                                 Query query = databaseReference.child("Chef");//child("Average").child("Average");//.orderByChild("Average");//.child(x);
 
